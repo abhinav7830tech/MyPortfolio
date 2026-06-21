@@ -25,7 +25,7 @@ export default function HeroSection() {
               View Projects
             </a>
             <a
-              href="https://drive.google.com/file/d/19Yey7s7N_hBzVlqz8u2zkdlGab7aqMvk/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1VjrAjF-d2NUJckqpV_yccQQEcYGVo2Ty/view?usp=sharing"
               target="_blank"
               rel="noopener"
               className="inline-flex items-center gap-2 px-7 py-3 rounded-sm text-sm font-semibold bg-transparent text-[var(--accent)] border-2 border-[var(--accent)] transition-all duration-300 hover:bg-[var(--accent)] hover:text-[var(--background)] hover:shadow-[0_0_20px_var(--accent-glow)]"
