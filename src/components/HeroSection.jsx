@@ -12,7 +12,7 @@ export default function HeroSection() {
             Abhinav Agnihotri
           </h1>
           <p className="font-heading text-[clamp(1rem,1.8vw,1.25rem)] font-medium text-[#FFE5BF] mb-4">
-            Data Science &amp; Machine Learning Analyst
+            Aspiring Data Analyst
           </p>
           <p className="text-base text-[#FFE5BF] max-w-[480px] leading-relaxed mb-8">
             Building intelligent systems from raw data &mdash; one model at a time.

@@ -26,7 +26,7 @@ export default function EducationSection() {
           <div className={`bg-[var(--card)] border border-[var(--border)] rounded-lg p-6 sm:p-8 transition-all duration-700 hover:border-[var(--accent-glow)] hover:shadow-[0_0_24px_rgba(201,168,76,0.06)] ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`} style={{ transitionDelay: '400ms' }}>
             <h3 className="font-heading text-lg font-semibold mb-1">High School (Class X)</h3>
             <p className="text-sm text-[var(--accent)] mb-1">Swami Trilokanand Higher Secondary School, Bareilly</p>
-            <p className="font-mono text-xs text-[#FFEABB]">2019</p>
+            <p className="font-mono text-xs text-[#FFEABB]">2019 | 81%</p>
           </div>
         </div>
       </div>
