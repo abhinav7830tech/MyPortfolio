@@ -32,9 +32,11 @@ export default function Header() {
       )}
     >
       <div className="max-w-[1200px] mx-auto px-6 flex items-center justify-between">
-        <a href="#hero" className="font-heading font-bold text-lg text-[var(--foreground)] tracking-tight">
-          Abhinav<span className="text-[var(--accent)]">.</span>
-        </a>
+        <div className="flex items-center gap-4">
+          <p className="font-mono text-[0.6rem] text-[#FFE5BF] tracking-wider opacity-60 italic leading-tight hidden sm:block max-w-[160px]">
+            &ldquo;Data tells a story if you listen.&rdquo;
+          </p>
+        </div>
 
         <button
           className="md:hidden text-[var(--foreground)]"
@@ -55,7 +57,7 @@ export default function Header() {
               <a
                 href={link.href}
                 onClick={() => setMenuOpen(false)}
-                className="text-sm font-medium text-[var(--muted)] hover:text-[var(--foreground)] transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-[var(--accent)] after:transition-all after:duration-300 hover:after:w-full"
+                className="text-sm font-medium text-[#FFE5BF] hover:text-[#FFE5BF] transition-colors duration-300 relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-[var(--accent)] after:transition-all after:duration-300 hover:after:w-full"
               >
                 {link.label}
               </a>

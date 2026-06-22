@@ -19,7 +19,7 @@ export default function CertificationsSection() {
   const { ref, isInView } = useInView()
 
   return (
-    <section id="certifications" className="py-24 px-6" ref={ref}>
+    <section id="certifications" className="py-24 px-6 bg-mid" ref={ref}>
       <div className="max-w-[1200px] mx-auto">
         <p className={`font-mono text-xs font-medium text-[var(--accent)] tracking-[0.15em] uppercase mb-2 transition-all duration-700 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           Credentials
@@ -40,7 +40,7 @@ export default function CertificationsSection() {
             <h3 className="font-heading text-base font-semibold text-[var(--accent)] mb-5">Achievements</h3>
             <div className="space-y-4">
               {achievements.map((item) => (
-                <div key={item} className="flex items-start gap-3 text-sm text-[var(--muted)] leading-relaxed">
+                <div key={item} className="flex items-start gap-3 text-sm text-[#EDE9E6] leading-relaxed">
                   <div className="w-8 h-8 rounded-full bg-[var(--amber-dim)] flex items-center justify-center flex-shrink-0 text-[var(--amber)] mt-0.5">
                     <Check size={16} />
                   </div>

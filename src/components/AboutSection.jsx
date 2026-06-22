@@ -7,7 +7,7 @@ export default function AboutSection() {
   const [imgError, setImgError] = useState(false)
 
   return (
-    <section id="about" className="py-24 px-6" ref={ref}>
+    <section id="about" className="py-24 px-6 bg-about-skills" ref={ref}>
       <div className="max-w-[1200px] mx-auto">
         <p className={`font-mono text-xs font-medium text-[var(--accent)] tracking-[0.15em] uppercase mb-2 transition-all duration-700 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           About Me
@@ -17,10 +17,10 @@ export default function AboutSection() {
         </h2>
         <div className="grid md:grid-cols-[280px_1fr] gap-12 items-start">
           <div className={`transition-all duration-700 delay-200 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-            <div className="relative w-[200px] h-[200px] sm:w-[220px] sm:h-[220px] md:w-[260px] md:h-[260px] rounded-lg bg-[linear-gradient(135deg,rgba(0,200,150,0.06),rgba(15,17,23,0.4))] border border-[var(--border)] flex items-center justify-center overflow-hidden mx-auto max-w-full">
+            <div className="relative w-[200px] h-[200px] sm:w-[220px] sm:h-[220px] md:w-[260px] md:h-[260px] rounded-lg bg-[linear-gradient(135deg,rgba(201,168,76,0.06),rgba(15,17,23,0.4))] border border-[var(--border)] flex items-center justify-center overflow-hidden mx-auto max-w-full">
               <div className="absolute inset-[-2px] rounded-lg p-[2px] bg-[conic-gradient(var(--accent),transparent,transparent,var(--accent-glow),var(--accent))]" style={{ WebkitMask: 'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)', WebkitMaskComposite: 'xor', maskComposite: 'exclude', animation: 'spin 6s linear infinite' }} />
               {!imgError ? (
-                <img src="/hero-photo.png" alt="Abhinav Agnihotri" className="w-full h-full object-cover z-10" onError={() => setImgError(true)} />
+                <img src="/about-photo.png" alt="Abhinav Agnihotri" className="w-full h-full object-cover z-10" onError={() => setImgError(true)} />
               ) : (
                 <span className="font-heading text-4xl sm:text-5xl font-bold text-[var(--accent)] opacity-50 z-10">AA</span>
               )}

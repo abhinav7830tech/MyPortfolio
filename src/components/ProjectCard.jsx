@@ -1,16 +1,16 @@
 export default function ProjectCard({ title, description, tech, github, badge }) {
   return (
-    <div className="bg-[var(--card)] border border-[var(--border)] rounded-lg p-6 sm:p-7 transition-all duration-300 hover:border-[var(--accent-glow)] hover:shadow-[0_0_30px_rgba(0,200,150,0.08)] hover:-translate-y-1 flex flex-col">
+    <div className="bg-[var(--card)] border border-[var(--border)] rounded-lg p-6 sm:p-7 transition-all duration-300 hover:border-[var(--accent-glow)] hover:shadow-[0_0_30px_rgba(201,168,76,0.08)] hover:-translate-y-1 flex flex-col">
       <span className="inline-block font-mono text-xs font-medium px-3 py-1 rounded-sm bg-[var(--amber-dim)] text-[var(--amber)] border border-[rgba(255,179,71,0.2)] mb-4 self-start">
         {badge}
       </span>
       <h3 className="font-heading text-lg font-semibold mb-3">{title}</h3>
-      <p className="text-sm text-[var(--muted)] leading-relaxed mb-5 flex-1">{description}</p>
+      <p className="text-sm text-[#FBE8CE] leading-relaxed mb-5 flex-1">{description}</p>
       <div className="flex flex-wrap gap-1.5 mb-5">
         {tech.map((t) => (
           <span
             key={t}
-            className="font-mono text-[0.65rem] px-2.5 py-1 rounded bg-[rgba(255,255,255,0.04)] border border-[var(--border)] text-[var(--muted)]"
+            className="font-mono text-[0.65rem] px-2.5 py-1 rounded bg-[rgba(255,255,255,0.04)] border border-[var(--border)] text-[#FBE8CE]"
           >
             {t}
           </span>

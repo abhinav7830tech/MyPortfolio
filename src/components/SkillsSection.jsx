@@ -28,7 +28,7 @@ export default function SkillsSection() {
   const { ref, isInView } = useInView()
 
   return (
-    <section id="skills" className="py-24 px-6" ref={ref}>
+    <section id="skills" className="py-24 px-6 bg-about-skills" ref={ref}>
       <div className="max-w-[1200px] mx-auto">
         <p className={`font-mono text-xs font-medium text-[var(--accent)] tracking-[0.15em] uppercase mb-2 transition-all duration-700 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           Expertise

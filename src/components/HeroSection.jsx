@@ -4,23 +4,23 @@ import { Github, Linkedin, Mail } from 'lucide-react'
 export default function HeroSection() {
   const [imgError, setImgError] = useState(false)
   return (
-    <section id="hero" className="min-h-screen flex items-center relative pt-20">
+    <section id="hero" className="min-h-screen flex items-center relative pt-20 bg-hero">
       <div className="dot-grid" />
       <div className="max-w-[1200px] mx-auto px-6 w-full grid lg:grid-cols-2 gap-14 items-center">
         <div>
-          <h1 className="font-heading text-[clamp(2.5rem,5vw,4rem)] font-bold leading-[1.1] tracking-tight mb-3">
+          <h1 className="font-heading text-[clamp(2.5rem,5vw,4rem)] font-bold leading-[1.1] tracking-tight text-[#F4AE52] mb-3">
             Abhinav Agnihotri
           </h1>
-          <p className="font-heading text-[clamp(1rem,1.8vw,1.25rem)] font-medium text-[var(--accent)] mb-4">
-            Data Science &amp; Machine Learning Engineer
+          <p className="font-heading text-[clamp(1rem,1.8vw,1.25rem)] font-medium text-[#FFE5BF] mb-4">
+            Data Science &amp; Machine Learning Analyst
           </p>
-          <p className="text-base text-[var(--muted)] max-w-[480px] leading-relaxed mb-8">
+          <p className="text-base text-[#FFE5BF] max-w-[480px] leading-relaxed mb-8">
             Building intelligent systems from raw data &mdash; one model at a time.
           </p>
           <div className="flex gap-4 flex-wrap mb-8">
             <a
               href="#projects"
-              className="inline-flex items-center gap-2 px-7 py-3 rounded-sm text-sm font-semibold bg-[var(--accent)] text-[var(--background)] border-2 border-[var(--accent)] transition-all duration-300 hover:bg-transparent hover:text-[var(--accent)] hover:shadow-[0_0_20px_var(--accent-glow)]"
+              className="inline-flex items-center gap-2 px-7 py-3 rounded-sm text-sm font-semibold bg-[#FFE5BF] text-[var(--background)] border-2 border-[#FFE5BF] transition-all duration-300 hover:bg-transparent hover:text-[#FFE5BF] hover:shadow-[0_0_20px_rgba(255,229,191,0.3)]"
             >
               View Projects
             </a>
@@ -28,7 +28,7 @@ export default function HeroSection() {
               href="https://drive.google.com/file/d/1VjrAjF-d2NUJckqpV_yccQQEcYGVo2Ty/view?usp=sharing"
               target="_blank"
               rel="noopener"
-              className="inline-flex items-center gap-2 px-7 py-3 rounded-sm text-sm font-semibold bg-transparent text-[var(--accent)] border-2 border-[var(--accent)] transition-all duration-300 hover:bg-[var(--accent)] hover:text-[var(--background)] hover:shadow-[0_0_20px_var(--accent-glow)]"
+              className="inline-flex items-center gap-2 px-7 py-3 rounded-sm text-sm font-semibold bg-transparent text-[#FFE5BF] border-2 border-[#FFE5BF] transition-all duration-300 hover:bg-[#FFE5BF] hover:text-[var(--background)] hover:shadow-[0_0_20px_var(--accent-glow)]"
             >
               Download Resume
             </a>

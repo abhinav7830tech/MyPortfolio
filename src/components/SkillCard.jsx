@@ -1,6 +1,6 @@
 export default function SkillCard({ category, skills }) {
   return (
-    <div className="bg-[var(--card)] border border-[var(--border)] rounded-lg p-5 sm:p-6 transition-all duration-300 hover:border-[var(--accent-glow)] hover:shadow-[0_0_24px_rgba(0,200,150,0.06)]">
+    <div className="bg-[var(--card)] border border-[var(--border)] rounded-lg p-5 sm:p-6 transition-all duration-300 hover:border-[var(--accent-glow)] hover:shadow-[0_0_24px_rgba(201,168,76,0.06)]">
       <h3 className="font-heading text-sm font-semibold text-[var(--accent)] mb-4 tracking-wide">
         {category}
       </h3>
