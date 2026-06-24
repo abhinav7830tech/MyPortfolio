@@ -4,17 +4,49 @@
 
 A personal portfolio website showcasing ML projects, technical skills, professional experience, and achievements. Built with React, Vite, and Tailwind CSS.
 
+<img src="screenshots/hero.png" alt="Hero Section" width="800">
+
 ## Sections
 
-- **Hero** — Animated intro with profile photo, orbital rings, social links, and CTAs
-- **About** — Bio and key metrics (ML projects, ROC-AUC, R-squared, Fraud Recall)
-- **Skills** — Programming, ML libraries, data tools, visualization, core skills
-- **Projects** — 3 featured ML projects with tech stacks and GitHub links
-- **Experience** — CODTECH IT SOLUTIONS internship timeline
-- **Education** — B.Tech CSE, XII, X
-- **Certifications & Achievements** — Deloitte/Tata Forage, Google AI workshop, DSA program
-- **Contact** — Form with validation + email/phone links
-- **Footer** — Social icon links
+### Hero
+Animated intro with profile photo, orbital rings, social links, and CTAs.
+
+<img src="screenshots/hero.png" alt="Hero Section" width="800">
+
+### About
+Bio and key metrics (ML projects, ROC-AUC, R-squared, Fraud Recall).
+
+<img src="screenshots/about.png" alt="About Section" width="800">
+
+### Skills
+Programming languages, ML libraries, data tools, visualization, and core competencies.
+
+<img src="screenshots/skills.png" alt="Skills Section" width="800">
+
+### Projects
+Featured ML projects with tech stacks and GitHub links.
+
+<img src="screenshots/projects.png" alt="Projects Section" width="800">
+
+### Experience
+CODTECH IT SOLUTIONS internship timeline.
+
+<img src="screenshots/experience.png" alt="Experience Section" width="800">
+
+### Education
+B.Tech CSE, XII, X academic qualifications.
+
+<img src="screenshots/education.png" alt="Education Section" width="800">
+
+### Certifications & Achievements
+Deloitte/Tata Forage certifications, Google AI workshop, DSA program, and more.
+
+<img src="screenshots/certifications.png" alt="Certifications Section" width="800">
+
+### Contact
+Form with validation, email, and phone links.
+
+<img src="screenshots/contact.png" alt="Contact Section" width="800">
 
 ## Tech Stack
 
